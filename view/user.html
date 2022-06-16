@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>User</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="">
+  
+  <div>
+    <!-- NavBar -->
+    <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between hover:text-grey-100">
+      <div class="flex justify-between items-center">
+        <span class="text-2xl font-[Poppins] cursor-pointer">
+          <img class="h-10 inline"
+          src="https://i.pinimg.com/736x/e9/e2/78/e9e2787d0cb55d570fe1c76843506759.jpg" alt="">
+          nft web
+        </span>
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
+        </span>    
+      </div>
+      <!-- search bar -->
+      <form action="#" class="flex items-center box-border w-1/2">
+        <label for="voice-search" class="sr-only">Search</label>
+        <div class="relative w-full">
+          <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+            <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+            </svg>
+          </div>
+          <input type="text" id="voice-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-300 block w-full pl-10 p-2.5 dark:placeholder-gray-400 dark:text-black dark:focus:border-blue-500" placeholder="Search..." required>
+        </div>
+      </form>
+      <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-zinc-400 duration-500">Explore</a>
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-zinc-400 duration-500">Stats</a>
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-zinc-400 duration-500">Resources</a>
+        </li>
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-zinc-400 duration-500">Create</a>
+        </li>
+        <li class="mx-4 md:my-0">
+          <button class="button" onClick="window.open('login.html');">
+            <a href="#" class="text-xl hover:text-zinc-400 duration-500">
+              <span class="material-symbols-outlined mt-3">account_circle</span>
+            </a>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <script>
+      function Menu(e){
+        let list = document.querySelector('ul');
+        e.name === 'menu-outline' ? (e.name = "close-outline" , list.classList.add('top-[80px]') , list.classList.add('opacity-100'))
+        :( e.name = "menu-outline" , list.classList.remove('top-[80px]') , list.classList.remove('opacity-100'))
+      }
+    </script>
+    <!-- End NavBar -->
+
+    <!-- header -->
+    <div class="header">
+      <img class="w-full h-2/5 "
+        src="https://lh3.googleusercontent.com/MXtZvkaWhrXXXc_-CSknDHglJVrIwHf2LneN5XqF_MwWEslMC9fzhuSU8W9CbwXNQjBl1YZm0PNY1Lmq2Hui85pkrzAgyLvXbyLW8pE=h600" >
+    </div>
+    <!-- end header -->
+
+    <!-- Profile photo -->
+    <div class="shadow md:flex">
+      <img class="border-8 border-white-200 rounded-md -mt-36 ml-12 absolute "
+        src="https://lh3.googleusercontent.com/J-8vLGmHUYx8guomAAfjfoG5O4z0gRxKb6aTKVt6MfN_1zTG0lnIyBTHGyz2iveL_6MfcVNuSPALDhfnFw0HOC9DftYo-QXWYPL33Q=s168" alt="">
+
+    </div>
+    <!-- end Profile photo -->
+
+    <!-- Bio part -->
+    <div class="mx-5 ml-12 mt-12 font-[Poppins] font-sans">
+      <p class="text-3xl font-bold">
+        projectcrack
+      </p>
+      <p class="pt-5 font-bold ">
+        By Projectcrack_
+      </p>
+      <p class="pt-8 w-1/2 pb-5">
+        Crack means special people in this society. The people who can participate in the project are those who can cause cracks in society. Are you Crack?
+      </p>
+      <br>
+      <table>
+        <tr class="border-none">
+          <td class="w-3 pr-5">
+            16 
+            Items
+          </td>
+          <td class="w-3 px-5">
+            5 
+            owners
+          </td>
+          <td class="w-[10rem] px-3">
+            160 <br>
+            floor price
+          </td>
+          <td class="w-[10rem] ">
+            706 <br>
+            total volume
+          </td>          
+        </tr>
+      </table>
+    </div>
+    <!-- end Bio part -->
+
+    <div class="mx-5 ml-12 mt-12 font-[Poppins] font-sans">
+      <div class="text-xl font-bold">
+        Items Activity
+      </div>     
+    </div>
+    <br>
+    <div class="pl-12 ">
+        <!-- search attribute  -->
+        <div class="inline-flex">
+          <form action="#" class="flex items-center box-border w-1/2">
+            <label for="voice-search" class="sr-only">Search</label>
+            <div class="relative w-1/2">
+              <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <input type="text" id="voice-search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-300 block w-full pl-10 p-2.5 dark:placeholder-gray-400 dark:text-black dark:focus:border-blue-500" placeholder="Search..." required>
+            </div>
+          </form>
+
+          <button id="dropdownDividerButton" class="text-black bg-white hover:bg-grey-800 border-black focus:ring-4 focus:outline-none focus:ring-grey-700 font-medium rounded-xl text-sm px-4 py-2.5 text-center inline-flex items-center " type="button">
+            Dropdown divider 
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+        </div>
+        <!-- end search attribute  -->
+
+        <!-- price range  -->
+        <div class="inline-flex">
+          
+
+
+        </div>
+        
+
+
+      </div>
+    </div>
+
+
+
+  </div>
+</body>
+</html>
