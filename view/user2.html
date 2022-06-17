@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <title>User</title>
+
+</head>
+<body class="">
+  <div class="card mb-3">
+    <img  class="card-img-top" 
+      src="https://lh3.googleusercontent.com/MXtZvkaWhrXXXc_-CSknDHglJVrIwHf2LneN5XqF_MwWEslMC9fzhuSU8W9CbwXNQjBl1YZm0PNY1Lmq2Hui85pkrzAgyLvXbyLW8pE=h600" >
+    <div class="card" style="width: 10rem; margin-top: -140px; margin-left: 50px;">
+      <img class="card-img-top" style="position: relative; "
+        src="https://img-ae.seadn.io/https%3A%2F%2Flh3.googleusercontent.com%2FJu9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB%3Ds10000?fit=max&h=120&w=120&auto=format&s=9719c84d198704a4b1bf7519f6f52256" alt="">
+    </div>
+    <div class="card-body" style="margin-left: 40px">
+      <h3 class="card-title"><b>User Title</b></h3>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <ul class="list-group list-group-horizontal" style="margin-left: -16px;">
+        <li class="list-group-item  justify-content-between align-items-center" style="border-color: white; ">
+          <span class=""><h5><b>10.0K</b></h5</span><br>
+          items
+        </li>
+        <li class="list-group-item  justify-content-between align-items-center" style="border-color: white; ">
+          <span class=""><h5><b>6.4K</b></h5</span><br>
+          owners
+        </li>
+        <li class="list-group-item  justify-content-between align-items-center" style="border-color: white; ">
+          <span class=""><h5><b>86.45</b></h5</span><br>
+          floor price
+        </li>
+        <li class="list-group-item  justify-content-between align-items-center" style="border-color: white; ">
+          <span class=""><h5><b>608.4K</b></h5</span><br>
+          total volume
+        </li>
+      </ul>   
+    </div>
+    <!-- Items and activity part  -->
+    <div style="margin: 0px 50px 0px 50px;">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="items-tab" data-bs-toggle="tab" data-bs-target="#items-tab-pane" type="button" role="tab" aria-controls="items-tab-pane" aria-selected="true">Items</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="activity-tab" data-bs-toggle="tab" data-bs-target="#activity-tab-pane" type="button" role="tab" aria-controls="activity-tab-pane" aria-selected="false">Activity</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent" style="padding-top: 20px;">
+        <!-- Items part -->
+        <div class="tab-pane fade show active" id="items-tab-pane" role="tabpanel" aria-labelledby="items-tab" tabindex="0" >
+          <!-- navbar items  -->
+          <div style="display:inline-flex ; padding-bottom: 40px;">
+          <form class="d-flex" role="search" style="width: 700px;">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+            <button class="btn btn-outline-success" type="submit"><ion-icon name="search-outline"></ion-icon></button>
+          </form>
+          <div class="dropdown" style="margin-left: 120px;">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" >
+              Price low to high
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+              <li><a class="dropdown-item active" href="#">Recently listed</a></li>
+              <li><a class="dropdown-item" href="#">Recently created</a></li>
+              <li><a class="dropdown-item" href="#">Recently sold</a></li>
+              <li><a class="dropdown-item" href="#">Ending soon</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Price high to low</a></li>
+              <li><a class="dropdown-item" href="#">Price low to high</a></li>
+            </ul>
+          </div>
+          <button class="btn" type="button" style="margin-left: 80px;">Make collection offer</button>
+          </div>
+          <!-- end navbar items  -->
+
+          <div class="container" style="margin-left: -10px;">
+            <div class="row align-items-start">
+              <div class="col-3">
+                One of three columns
+              </div>
+              <div class="col">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://lh3.googleusercontent.com/OSWwaUbWJevODWyS7wM46znwexQs0GGZq-Ts3a70Bw9XGvH_bNEC3KpQ-gS8kbPzSydznBGmHBvszkTOyW7HZsudoXRHDc6lLvc3YA=w222" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Collection name</h5>
+                        <p class="card-text">Collection Description</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">
+                          Price
+                          <br>
+                          <h5><b><ion-icon name="diamond-outline"></ion-icon>160</b></h5>
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://lh3.googleusercontent.com/d-xf-zMdva5Ur00fnHaz_0gMLBok7kDpLa5f6fYbbL1vUhaHIeNZPcrR93Tlrf8NbL92qX46RvsG8oHjDN_Tx2d6MHLZlGABZXT-MA=w222" class="card-img-top" alt="...">
+                      <div class="card-body">   
+                        <h5 class="card-title">Collection name</h5>
+                        <p class="card-text">Collection Description</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">
+                          Price
+                          <br>
+                          <h5><b><ion-icon name="diamond-outline"></ion-icon>160</b></h5>
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://lh3.googleusercontent.com/3xaxBS1BqsH8cHBxl3RF33l0O0VzmpAC5RkMmpRQCeeNTBxvajUg1Ds6uMa9uIq0A1AFBhFjGQMX9zQRcO9lZDF--TiRtd-J08do=w222" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Collection name</h5>
+                        <p class="card-text">Collection Description</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">
+                          Price
+                          <br>
+                          <h5><b><ion-icon name="diamond-outline"></ion-icon>160</b></h5>
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            
+          </div>
+
+    
+
+
+  
+
+
+
+        </div>
+
+        <!-- Activity part -->
+        <div class="tab-pane fade" id="activity-tab-pane" role="tabpanel" aria-labelledby="activity-tab" tabindex="0">DESIGN ACTIVITY DISINI</div>
+      </div>
+    </div>
+    
+
+  
+  
+  
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
